@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    background: #000;
+}
+
+/* Configuração da imagem */
+#imagem{
+    display: flex;
+    justify-content: center;
+    padding-top: 164px;
+}
+
+/* configuração do container */
+#container{
+    display: flex;
+    flex-direction: column;
+    color: #fafafa;
+    align-items: center;
+}
+
+/* Buttom */
+.enviar{
+    background: #2fb23c;
+    color: #fafafa;
+    border: none;
+    width: 190px;
+    height: 50px;
+    border-radius: 11px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.enviar:hover{
+    background: #006400;
+}
+
+/* configuração da label */
+#email{
+    width: 466px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: #fafafa;
+    background: #353535;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#password{
+    width: 466px;
+    height: 50px;
+    margin-bottom: 40px;
+    color: #fff;
+    background: #353535;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+label{
+    padding-right: 410px;
+}
+
+/* Configuração do input */
+input::placeholder{
+    color: #fff;
+    text-align: center;
+}
